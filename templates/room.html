@@ -279,17 +279,17 @@
       let sender = data["sender"]
       let content = data["message"]
 
-      if (sender == "{{user}}") {
+      if (sender == "{{username}}") {
         document.getElementById("message").value = ""
       }
 
-      if (sender == "{{user}}") {
+      if (sender == "{{username}}") {
         document.getElementById("message").value = ""
       }
 
 
 
-      if (sender == "{{user}}") {
+      if (sender == "{{username}}") {
         chats_div.innerHTML += `<div class="single-message sent">
           <div class="msg-body">${content}</div>
           <p class="sender">Me</p>
